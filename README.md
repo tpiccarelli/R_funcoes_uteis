@@ -7,4 +7,6 @@ USE: eval(quote)
 assign(): assign a value to a name in an environment
 maybe do the same thing as eval(quote)
 
+
+deparse(substitute(x)): retorna um objeto (vetor de caracteres vazio) de nome idêntico ao do objeto x original
   
