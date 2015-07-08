@@ -9,4 +9,7 @@ maybe do the same thing as eval(quote)
 
 
 deparse(substitute(x)): retorna um objeto (vetor de caracteres de extensão unitária) com nome idêntico ao do objeto x original
+
+
+oanda.currencies: Download Currency and Metals Data from Oanda.com
   
