@@ -12,4 +12,8 @@ deparse(substitute(x)): retorna um objeto (vetor de caracteres de extensão unit
 
 
 oanda.currencies: Download Currency and Metals Data from Oanda.com
+
+proc.time(): registra instante (útil para medir processos de início/fim)
+Ex.:  no início algoritmo, cria objeto t0 <- proc.time()
+      no fim do algoritmo, cria objeto t1 <- proc.time()
   
